@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
-import {FaBars, FaTimes} from 'react-icons/fa';
+import {FaBars, FaTimes, FaLinkedin, FaGithub} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -26,7 +28,7 @@ const Navbar = () => {
 
       {/* Hamburger */}
        <div className='md:hidden z-50' onClick={handleNav}>
-        {nav ? <FaTimes/> : <FaBars/> }
+        {nav ? <FaTimes size={20}/> : <FaBars size={20}/> }
        </div>
 
        {/* Mobile menu */}
@@ -40,7 +42,11 @@ const Navbar = () => {
 
 
        {/* Social Icons */}
-       <div className='hidden'></div>
+       <div className='flex fixed flex-col top-[35%] left-0'>
+        <ul>
+          <li> </li>
+        </ul>
+       </div>
     </div>
   );
 };

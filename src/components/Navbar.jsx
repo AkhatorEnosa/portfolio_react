@@ -42,9 +42,28 @@ const Navbar = () => {
 
 
        {/* Social Icons */}
-       <div className='flex fixed flex-col top-[35%] left-0'>
+       <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li> </li>
+          <li className='w-[150px] h-[60px] flex items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-blue-900'>
+            <a href="#" className='w-full flex justify-between items-center'>
+              LinkedIn <FaLinkedin size={30}/>
+            </a>
+          </li>
+          <li className='w-[150px] h-[60px] flex items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-black'>
+            <a href="#" className='w-full flex justify-between items-center'>
+              Github <FaGithub size={30}/>
+            </a>
+          </li>
+          <li className='w-[150px] h-[60px] flex items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-red-600'>
+            <a href="#" className='w-full flex justify-between items-center'>
+              Email <HiOutlineMail size={30}/>
+            </a>
+          </li>
+          <li className='w-[150px] h-[60px] flex items-center ml-[-90px] hover:ml-[-10px] duration-300 bg-green-700'>
+            <a href="#" className='w-full flex justify-between items-center'>
+              Resume <BsFillPersonLinesFill size={30}/>
+            </a>
+          </li>
         </ul>
        </div>
     </div>

@@ -14,7 +14,7 @@ const Home = () => {
         <p className='text-[#7d7f84] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore accusantium alias autem repellendus repellat! Nostrum repudiandae consectetur eius? Porro voluptates dolores molestias obcaecati alias architecto accusantium.</p>
 
         <div className="w-full">
-          <button className='group text-white bg-[#F02252] rounded-sm px-6 py-2 my-2 flex items-center justify-between hover:bg-pink-900 duration-300'>View Work<HiArrowCircleRight className='ml-2 group-hover:ml-4 duration-300'/></button>
+          <button className='group text-white bg-[#F02252] rounded-md px-6 py-2 my-2 flex items-center justify-between hover:bg-pink-900 duration-300'>View Work<HiArrowCircleRight className='ml-2 group-hover:ml-4 duration-300'/></button>
         </div>
       </div>
     </div>

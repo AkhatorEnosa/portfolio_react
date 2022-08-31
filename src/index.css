@@ -27,11 +27,25 @@
   background-position: center;
   height: 250px;
   /* transition: background-image 300ms ease-in-out; */
+  z-index: 0px;
 }
 
 .content-div:hover {
   background-image: linear-gradient( to right,
-    rgba(198, 76, 96, 0.5),
-    rgba(240, 34, 82, 0.8)
+    rgba(198, 76, 96, 0.2),
+    rgba(240, 34, 82, 0.2)
   ) !important;
+}
+
+.nav {
+  z-index: 1000px;
+}
+
+div > .details {
+  display: none;
+  transition: display 2s ease-in-out !important;
+}
+
+div:hover > .details {
+  display: block;
 }

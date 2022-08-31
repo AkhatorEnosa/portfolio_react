@@ -47,12 +47,12 @@ const Navbar = () => {
         </ul>
 
       {/* Hamburger */}
-       <div className='md:hidden z-50' onClick={handleNav}>
+       <div className='md:hidden flex z-50' onClick={handleNav}>
         {nav ? <FaTimes size={20}/> : <FaBars size={20}/> }
        </div>
 
        {/* Mobile menu */}
-       <ul className={nav ? 'md:hidden w-full absolute top-0 left-0 bg-[#0a192f] h-screen flex flex-col justify-center items-center z-50' : 'hidden'}>
+       <ul className={nav ? 'md:hidden w-full absolute top-0 left-0 bg-[#0a192f] h-screen flex flex-col justify-center items-center nav' : 'hidden'}>
           <li className='py-6 text-4xl hover:text-[#F02252] duration-300'>
             <Link onClick={handleNav} activeClass="active" to="home" spy={true} smooth={true} duration={600}>
               Home

@@ -14,11 +14,15 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-3xl font-bold">
             <p>
-              HI, I am Osa, so nice to meet you. Please take a look around.
+              HI, I am Osa, so nice to meet you.
             </p>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aut quas praesentium, deleniti, neque quasi libero recusandae sapiente obcaecati laudantium molestiae nemo tempore quae. Eaque eos beatae neque temporibus odio voluptate veniam illum delectus cum explicabo. Quos sint nihil dolores esse voluptatibus consectetur eligendi soluta ut eaque. Odit, perferendis maxime?</p>
+            <p>
+              I am Akhator Osakhogba, alias Osa, a 25 years old Computer Scienec graduate mspecializing in front end web development to promote organization-specific website presence with workng knowlegde of HTML, CSS, TailwindCSS, React JavaScript, Git to generate custom webpage design. Detail-oriented approach to maintaining website responsiveness and effectiveness Hardworking and passionate with strong organizational skills and ready to help team achieve company goals.
+
+              Though specialized in front-end development, my abilities also extends to being able to use back-end technologies like PHP, MySQL, NodeJS, Express, Postgresql and also design tools like Figma, Photoshop and Inkscape.
+            </p>
           </div>
         </div>
       </div>

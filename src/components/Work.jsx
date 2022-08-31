@@ -34,10 +34,10 @@ const Work = () => {
                 <p className='mt-4'>A web application for generating random cool gradient background colours.</p>
 
                 <div className='pt-2 text-center'>
-                  <a href="/">
+                  <a href="https://akhatorenosa.github.io/random-gradient-background-generator/">
                     <button className='text-center rounded-lg py-1 px-3 m-2 bg-white text-[#F02252] font-bold text-lg'>Demo</button>
                   </a>
-                  <a href="/">
+                  <a href="https://github.com/AkhatorEnosa/random-gradient-background-generator">
                     <button className='text-center rounded-lg py-1 px-3 m-2 bg-white text-[#F02252] font-bold text-lg'>Code</button>
                   </a>
                 </div>
@@ -54,10 +54,10 @@ const Work = () => {
                 <p className='mt-4'>A web application to check if spouses genotype compatibility.</p>
 
                 <div className='pt-2 text-center'>
-                  <a href="/">
+                  <a href="https://gmchecker.netlify.app/">
                     <button className='text-center rounded-lg py-1 px-3 m-3 bg-white text-[#F02252] font-bold text-lg'>Demo</button>
                   </a>
-                  <a href="/">
+                  <a href="https://github.com/AkhatorEnosa/genotype_match_checker">
                     <button className='text-center rounded-lg py-1 px-3 m-3 bg-white text-[#F02252] font-bold text-lg'>Code</button>
                   </a>
                 </div>
@@ -73,10 +73,10 @@ const Work = () => {
                 <p className='mt-4'>For those that love puzzles, this is a web game that people can enjoy for fun by uncrambling scrambled words.</p>
 
                 <div className='pt-2 text-center'>
-                  <a href="/">
+                  <a href="https://akhatorenosa.github.io/unscramble-game/">
                     <button className='text-center rounded-lg py-1 px-3 m-3 bg-white text-[#F02252] font-bold text-lg'>Demo</button>
                   </a>
-                  <a href="/">
+                  <a href="https://github.com/AkhatorEnosa/unscramble-game">
                     <button className='text-center rounded-lg py-1 px-3 m-3 bg-white text-[#F02252] font-bold text-lg'>Code</button>
                   </a>
                 </div>
@@ -103,7 +103,7 @@ const Work = () => {
                 <p className='mt-4'>A simple design for a mobile app for reading articles landing page.</p>
 
                 <div className='pt-2 text-center'>
-                  <a href="/">
+                  <a href="https://dribbble.com/shots/15462316-Mobile-App-Landing-Page?utm_source=Clipboard_Shot&utm_campaign=Gosab&utm_content=Mobile%20App%20Landing%20Page&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Gosab&utm_content=Mobile%20App%20Landing%20Page&utm_medium=Social_Share">
                     <button className='text-center rounded-lg py-1 px-3 m-3 bg-white text-[#F02252] font-bold text-lg'>View</button>
                   </a>
                 </div>
@@ -120,7 +120,7 @@ const Work = () => {
                 <p className='mt-4'>Shots illustrating how the pages of a banking app would look like.</p>
 
                 <div className='pt-2 text-center'>
-                  <a href="/">
+                  <a href="https://dribbble.com/shots/15387427-UI-for-a-Mobile-Banking-app?utm_source=Clipboard_Shot&utm_campaign=Gosab&utm_content=UI%20for%20a%20Mobile%20Banking%20app&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Gosab&utm_content=UI%20for%20a%20Mobile%20Banking%20app&utm_medium=Social_Share">
                     <button className='text-center rounded-lg py-1 px-3 m-3 bg-white text-[#F02252] font-bold text-lg'>View</button>
                   </a>
                 </div>
@@ -136,7 +136,7 @@ const Work = () => {
                 <p className='mt-4'>Using Typography to create clean and useful logo. In this case, Zoom is the case.</p>
 
                 <div className='pt-2 text-center'>
-                  <a href="/">
+                  <a href="https://dribbble.com/shots/5743727-Remake-of-Zoom-typography?utm_source=Clipboard_Shot&utm_campaign=Gosab&utm_content=Remake%20of%20Zoom%20typography&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Gosab&utm_content=Remake%20of%20Zoom%20typography&utm_medium=Social_Share">
                     <button className='text-center rounded-lg py-1 px-3 m-3 bg-white text-[#F02252] font-bold text-lg'>View</button>
                   </a>
                 </div>

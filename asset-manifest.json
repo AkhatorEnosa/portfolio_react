@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.193aefbb.css",
+    "main.js": "/portfolio-react/static/js/main.f2468991.js",
+    "static/media/2.png": "/portfolio-react/static/media/2.7a1c92756369bccbaaf4.png",
+    "static/media/3.png": "/portfolio-react/static/media/3.c048e7cd577adceac7a8.png",
+    "static/media/Akhator_Osakhogba.pdf": "/portfolio-react/static/media/Akhator_Osakhogba.bc6c72e0dc33cb54a5ba.pdf",
+    "static/media/1.png": "/portfolio-react/static/media/1.52f0a3c3634f0101ee90.png",
+    "static/media/drib-2.webp": "/portfolio-react/static/media/drib-2.52222e772ebd87e790d3.webp",
+    "static/media/drib-1.webp": "/portfolio-react/static/media/drib-1.2bb2115aee41bdfcb3fb.webp",
+    "static/media/react.png": "/portfolio-react/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/drib-3.webp": "/portfolio-react/static/media/drib-3.2e92cb1519f6749bc1a6.webp",
+    "static/media/github.png": "/portfolio-react/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/portfolio-react/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/portfolio-react/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/portfolio-react/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.193aefbb.css.map": "/portfolio-react/static/css/main.193aefbb.css.map",
+    "main.f2468991.js.map": "/portfolio-react/static/js/main.f2468991.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.193aefbb.css",
+    "static/js/main.f2468991.js"
+  ]
+}

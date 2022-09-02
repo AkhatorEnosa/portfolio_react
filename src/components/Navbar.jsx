@@ -79,6 +79,45 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+
+
+          <ul className='flex flex-row w-full justify-between px-10 mt-10'>
+            <div className='flex flex-col justify-center text-center'>
+              <li className='h-[60px] flex items-center justify-center bg-green-600 rounded-full shadow-md shadow-gray-600'>
+                <a href={Cv} className='w-full flex justify-between items-center'>
+                  <BsFillPersonLinesFill size={30}/>
+                </a>
+              </li> 
+              <p className='pt-6 text-green-600'>Resume</p>
+            </div>
+
+            <div className='flex flex-col justify-center  text-center'>
+              <li className='h-[60px] flex items-center justify-center bg-blue-900 rounded-full shadow-md shadow-gray-600'>
+                <a href="https://www.linkedin.com/in/akhator-osakhogba-024762139" className='w-full flex justify-between items-center'>
+                  <FaLinkedin size={30}/>
+                </a>
+              </li>
+                <p className='pt-6 text-blue-900'>LinkedIn</p>
+            </div>
+
+            <div className='flex flex-col justify-center  text-center'>
+              <li className='h-[60px] flex items-center bg-black rounded-full shadow-md shadow-gray-600'>
+                <a href="https://www.github/Akhaorenosa" className='w-full flex justify-between items-center'>
+                  <FaGithub size={30}/>
+                </a>
+              </li>
+                <p className='pt-6 text-gray-300'>GitHub</p>
+            </div>
+
+            <div className='flex flex-col justify-center  text-center'>
+              <li className='h-[60px] flex items-center bg-red-600 rounded-full shadow-md shadow-gray-600'>
+                <a href="mailto:aosakhogba@gmail.com" className='w-full flex justify-between items-center'>
+                <HiOutlineMail size={30}/>
+                </a>
+              </li>
+                <p className='pt-6 text-red-600'>Email</p>
+            </div>
+          </ul>
        </ul>
 
 

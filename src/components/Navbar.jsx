@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 lg:px-20'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 lg:px-20 z-50'>
       <div className="">
         <p className='w-10 text-5xl md:text-6xl logo tracking-tighter font-bold text-[#F02252]'>Osa</p>
       </div>

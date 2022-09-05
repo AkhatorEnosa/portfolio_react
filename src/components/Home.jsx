@@ -12,7 +12,7 @@ const Home = () => {
         <p className='text-[#F02252] text-2xl'>Hi, I am</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Akhator Osakhogba</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#7d7f84]'>I am a Frontend Web Developer  & UI/UX designer.</h2>
-        <p className='text-[#7d7f84] py-4 max-w-[700px]'>Innovative, Easy-going and a Team player.</p>
+        <p className='text-gray-300 py-4 max-w-[700px]'>Innovative, Easy-going and a Team player.</p>
 
         <div className="w-full">
             <Link activeClass="active" to="work" spy={true} smooth={true} duration={600}>

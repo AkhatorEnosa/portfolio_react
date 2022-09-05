@@ -12,12 +12,12 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-3xl font-bold">
+          <div className="sm:text-right text-3xl font-bold ">
             <p>
               HI, I am Osa, so nice to meet you.
             </p>
           </div>
-          <div>
+          <div className='text-gray-300'>
             <p>
               I am Akhator Osakhogba, alias Osa, a 25 years old Computer Scienec graduate mspecializing in front end web development to promote organization-specific website presence with workng knowlegde of HTML, CSS, TailwindCSS, React JavaScript, Git to generate custom webpage design. Detail-oriented approach to maintaining website responsiveness and effectiveness Hardworking and passionate with strong organizational skills and ready to help team achieve company goals.
 

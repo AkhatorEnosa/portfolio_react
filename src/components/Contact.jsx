@@ -1,4 +1,5 @@
 import React from 'react'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const Contact = () => {
   return (
@@ -6,6 +7,8 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen flex justify-center items-center p-4 bg-[#0a192f] text-[#7d7f84]"
     >
+
+      <AnimationOnScroll animateIn="animate__fadeInLeft">
       <form
         action="https://getform.io/f/01a397ad-661f-4786-b7aa-0dc90c7bb80f"
         method="POST"
@@ -50,6 +53,7 @@ const Contact = () => {
           Submit
         </button>
       </form>
+      </AnimationOnScroll>
     </div>
   )
 }

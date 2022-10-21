@@ -1,5 +1,6 @@
 import React from 'react';
-import RandomBackground from '../assets/1.png'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import RandomQuotes from '../assets/1.png'
 import GenotypeMatch from '../assets/2.png'
 import Unscramble from '../assets/3.png'
 import LandingPage from '../assets/drib-1.webp'
@@ -10,6 +11,8 @@ const Work = () => {
   return (
     <div name="work" className='w-full md:h-screen bg-[#0a192f] text-[#7d7f84]'>
       <div className='max-w-[1000px] mx-auto w-full h-full p-4 flex flex-col justify-center'>
+
+      <AnimationOnScroll animateIn="animate__fadeInRight">
         <div className='pb-6'>
           <p className='text-4xl font-bold border-b-4 border-[#F02252] inline'>Work</p>
           <p className='py-6 text-gray-300'>Below are some of my recent works. </p>
@@ -24,20 +27,20 @@ const Work = () => {
           <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* grid-item */}
-            <div style={{backgroundImage: `url(${RandomBackground})`}}  className='shadow-lg shadow-[#040c16] flex rounded-md justify-center items-center mx-auto content-div w-full'>
+            <div style={{backgroundImage: `url(${RandomQuotes})`}}  className='shadow-lg shadow-[#040c16] flex rounded-md justify-center items-center mx-auto content-div w-full'>
 
               {/* Hover effect */}
               <div className='details text-center text-white p-6'>
                 <span className='text-2xl font-bold tracking-wider'>
-                  Random Gradient Generator
+                  Random Quote App
                 </span>
-                <p className='mt-4'>A web application for generating random cool gradient background colours.</p>
+                <p className='mt-4'>This is a web application that utilizes api to get random quotes made by great men and women. Built with RreactJs</p>
 
                 <div className='pt-2 text-center'>
-                  <a href="https://akhatorenosa.github.io/random-gradient-background-generator/">
+                  <a href="https://kwota.netlify.app">
                     <button className='text-center rounded-lg py-1 px-3 m-2 bg-white text-[#F02252] font-bold text-lg'>Demo</button>
                   </a>
-                  <a href="https://github.com/AkhatorEnosa/random-gradient-background-generator">
+                  <a href="https://github.com/AkhatorEnosa/quotes-app">
                     <button className='text-center rounded-lg py-1 px-3 m-2 bg-white text-[#F02252] font-bold text-lg'>Code</button>
                   </a>
                 </div>
@@ -145,6 +148,7 @@ const Work = () => {
           </div> 
           {/* container 2 end */}
         </div>
+      </AnimationOnScroll>
 
       </div>
     </div>

@@ -5,6 +5,7 @@ import TW from '../assets/tailwind.png';
 import JS from '../assets/javascript.png';
 import REACT from '../assets/react.png';
 import GITHUB from '../assets/github.png';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Skills = () => {
   return (
@@ -12,6 +13,8 @@ const Skills = () => {
 
       {/* container */}
       <div className='max-w-[1000px] mx-auto p-4 w-full h-full flex flex-col justify-center'>
+
+      <AnimationOnScroll animateIn="animate__fadeInLeft">
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-[#F02252]'>Skills</p>
           <p className='py-4 text-gray-300'>These are the technologies i have worked with.</p>
@@ -48,6 +51,7 @@ const Skills = () => {
             <p className='my-4'>Github</p>
            </div>
         </div>
+        </AnimationOnScroll>
       </div>
     </div>
   );

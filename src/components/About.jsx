@@ -21,9 +21,9 @@ const About = () => {
             </div>
             <div className='text-gray-300'>
               <p className='leading-8 md:leading-normal'>
-                I am Akhator Osakhogba, alias Osa, a 25 years old Computer Scienec graduate mspecializing in front end web development to promote organization-specific website presence with workng knowlegde of HTML, CSS, TailwindCSS, React JavaScript, Git to generate custom webpage design. Detail-oriented approach to maintaining website responsiveness and effectiveness Hardworking and passionate with strong organizational skills and ready to help team achieve company goals.
-
-                Though specialized in front-end development, my abilities also extends to being able to use back-end technologies like PHP, MySQL, NodeJS, Express, Postgresql and also design tools like Figma, Photoshop and Inkscape.
+                Hi, I am Akhator Osakhogba, A graduate and BS.c certified Computer Scientist who got into tech because of my fascination and passion for building products on the web with code. I have a workng knowloegde of HTML5, CSS3,Tailwind CSS, JavaScript, ReactJs, PHP, MySQL and Wordpress. I take detail-oriented approach to maintaining website responsiveness, effectiveness and security. Hardworking and passionate with strong organizational skills and ready to help team achieve company goals. <br/>
+      
+        My hobbies when i am not coding includes; Listening to musics(Any genre), playing video games out of a few.
               </p>
             </div>
           </div>

@@ -1,3 +1,15 @@
+# portfolio_react
+
+If you are wondering how i built my portfolio website, well this is it. 
+
+I am sure you would find it useful.
+
+Thank You.
+
+
+## To run this project, follow the below official CREATE REACT APP guide.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

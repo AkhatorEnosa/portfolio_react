@@ -24,11 +24,11 @@ const Projects = () => {
             </div>
 
             <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-5'>
-              <ProjectCards heading="Splitter" imagePath={Splitter} alt="Splitter" details="This project is based around building a web app to easily split bills between two or more persons including tips(if needed) and it is built using;" demoLink="https://splitify.netlify.app/"/>
-              <ProjectCards heading="Space Tourism" imagePath={SpaceTourism} alt="Space Tourism" details="Space Theme Tourism website." demoLink="https://spacetourtravel.netlify.app/"/>
-              <ProjectCards heading="Shaup" imagePath={Shaup} alt="Shaup" details="ECommerce Frontend website." demoLink="https://shaup.netlify.app"/>
-              <ProjectCards heading="Techkare" imagePath={Techkare} alt="techKare" details="Healthcare Facility Dashboard displaying a Patient's Data" demoLink="https://techkare.netlify.app/"/>
-              <ProjectCards heading="Hilink" imagePath={Hilink} alt="hilink" details="A front-end view of a typical travel camping app's Data" demoLink="https://hilinki.netlify.app/"/>
+              <ProjectCards heading="Splitter" imagePath={Splitter} alt="Splitter" details="This project is based around building a web app to easily split bills between two or more persons including tips(if needed) and it is built using;" demoLink="https://splitify.netlify.app/" codeLink="https://github.com/AkhatorEnosa/bill-splitter-app"/>
+              <ProjectCards heading="Space Tourism" imagePath={SpaceTourism} alt="Space Tourism" details="Space Theme Tourism website." demoLink="https://spacetourtravel.netlify.app/" codeLink="https://github.com/AkhatorEnosa/space-tourism-website-main"/>
+              <ProjectCards heading="Shaup" imagePath={Shaup} alt="Shaup" details="ECommerce Frontend website built with react." demoLink="https://shaup.netlify.app" codeLink="https://github.com/AkhatorEnosa/online-store"/>
+              <ProjectCards heading="Techkare" imagePath={Techkare} alt="techKare" details="Healthcare Facility Dashboard displaying a Patient's Data" demoLink="https://techkare.netlify.app/" codeLink="https://github.com/AkhatorEnosa/techcare"/>
+              <ProjectCards heading="Hilink" imagePath={Hilink} alt="hilink" details="A front-end view of a typical travel camping app's Data" demoLink="https://hilinki.netlify.app/" codeLink="https://github.com/AkhatorEnosa/travel-app"/>
             </div>
       </div>
     </div>

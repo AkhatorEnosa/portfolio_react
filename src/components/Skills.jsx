@@ -5,20 +5,16 @@ import TW from '../assets/tailwind.png';
 import JS from '../assets/javascript.png';
 import REACT from '../assets/react.png';
 import GITHUB from '../assets/github.png';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
-
 const Skills = () => {
   return (
-    <div name="skills" className='w-full h-screen bg-[#0a192f] text-[#7d7f84] '>
-
-      {/* container */}
-      <div className='max-w-[1000px] mx-auto p-4 w-full h-full flex flex-col justify-center'>
-
-      <AnimationOnScroll animateIn="animate__fadeInLeft">
-        <div>
-          <p className='text-4xl font-bold inline border-b-4 border-[#F02252]'>Skills</p>
-          <p className='py-4 text-gray-300'>These are the technologies i have worked with.</p>
-        </div>
+    <div name="skills" className='w-full h-screen bg-[#100f1f] text-[#7d7f84]'>
+        <div className="w-full flex flex-col justify-center items-center h-full">
+            <div className="w-full pb-10 md:pb-8 pl-4 text-center">
+              <p className='text-4xl font-bold inline border-b-4 border-[#F02252]'>
+                Skills
+              </p>
+              <p className='py-4 text-gray-300'>These are the technologies i have worked with.</p>
+            </div>
         
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-6'>
            <div className='md:w-[200px] mx-auto shadow-md shadow-[#040c16] hover:scale-110 duration-300 rounded-lg my-6'>
@@ -51,7 +47,6 @@ const Skills = () => {
             <p className='my-4'>Github</p>
            </div>
         </div>
-        </AnimationOnScroll>
       </div>
     </div>
   );

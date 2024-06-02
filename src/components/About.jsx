@@ -1,11 +1,9 @@
 import React from 'react';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const About = () => {
   return (
     <div name="about" className='w-full h-screen bg-[#0a192f] text-[#7d7f84]'>
         <div className="w-full flex flex-col justify-center items-center h-full">
-      <AnimationOnScroll animateIn="animate__fadeInRight">
           <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
             <div className="sm:text-right pb-10 md:pb-8  pl-4">
               <p className='text-4xl font-bold inline border-b-4 border-[#F02252]'>
@@ -27,7 +25,6 @@ const About = () => {
               </p>
             </div>
           </div>
-      </AnimationOnScroll>
         </div>
     </div>
   );

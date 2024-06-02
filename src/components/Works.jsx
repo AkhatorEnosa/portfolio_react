@@ -1,5 +1,4 @@
 import React from 'react';
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import RandomQuotes from '../assets/1.png'
 import GenotypeMatch from '../assets/2.png'
 import Unscramble from '../assets/3.png'
@@ -9,13 +8,11 @@ import Logo from '../assets/drib-3.webp'
 
 const Work = () => {
   return (
-    <div name="work" className='w-full md:h-screen bg-[#0a192f] text-[#7d7f84]'>
+    <div name="work" className='w-full md:h-screen bg-[#0a192f] text-[#7d7f84] py-8'>
       <div className='max-w-[1000px] mx-auto w-full h-full p-4 flex flex-col justify-center'>
-
-      <AnimationOnScroll animateIn="animate__fadeInRight">
         <div className='pb-6'>
-          <p className='text-4xl font-bold border-b-4 border-[#F02252] inline'>Work</p>
-          <p className='py-6 text-gray-300'>Below are some of my recent works. </p>
+          <p className='text-4xl font-bold border-b-4 border-[#F02252] inline'>Projects</p>
+          <p className='py-6 text-gray-300'>Below are some of my works. </p>
         </div>
 
         <div className='flex flex-col justify-between'>
@@ -148,7 +145,6 @@ const Work = () => {
           </div> 
           {/* container 2 end */}
         </div>
-      </AnimationOnScroll>
 
       </div>
     </div>

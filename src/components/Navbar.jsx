@@ -3,7 +3,7 @@ import {FaBars, FaTimes, FaLinkedin, FaGithub} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {Link} from 'react-scroll';
-import Cv from '../assets/Akhator Osakhogba.pdf';
+import Cv from '../assets/Akhator_Osakhogba.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,34 +13,34 @@ const Navbar = () => {
   }
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 lg:px-20 z-50'>
+    <div className='fixed w-full flex justify-between items-center px-4 bg-[#100f1f] text-gray-300 lg:px-20 z-50'>
       <div className="">
-        <p className='w-10 text-5xl md:text-6xl logo tracking-tighter font-bold text-[#F02252]'>Osa</p>
+        <p className='text-5xl md:text-6xl logo tracking-tighter font-bold text-[#F02252]'>Osa</p>
       </div>
 
       {/* Menu */}
         <ul className="hidden md:flex">
-          <li className='hover:text-[#F02252] duration-300'>
+          <li className='py-5 hover:bg-[#F02252] hover:border-b-2 hover:font-semibold hover:text-[#100f1f] duration-300'>
             <Link activeClass="active" to="home" spy={true} smooth={true} duration={600}>
               Home
             </Link>
           </li>
-          <li className='hover:text-[#F02252] duration-300'>
+          <li className='py-5 hover:bg-[#F02252] hover:border-b-2 hover:font-semibold hover:text-[#100f1f] duration-300'>
             <Link activeClass="active" to="about" spy={true} smooth={true} duration={600}>
               About
             </Link>
           </li>
-          <li className='hover:text-[#F02252] duration-300'>
+          <li className='py-5 hover:bg-[#F02252] hover:border-b-2 hover:font-semibold hover:text-[#100f1f] duration-300'>
             <Link activeClass="active" to="skills" spy={true} smooth={true} duration={600}>
               Skills
             </Link>
           </li>
-          <li className='hover:text-[#F02252] duration-300'>
+          <li className='py-5 hover:bg-[#F02252] hover:border-b-2 hover:font-semibold hover:text-[#100f1f] duration-300'>
             <Link activeClass="active" to="work" spy={true} smooth={true} duration={600}>
               Work
             </Link>
           </li>
-          <li className='hover:text-[#F02252] duration-300'>
+          <li className='py-5 hover:bg-[#F02252] hover:border-b-2 hover:font-semibold hover:text-[#100f1f] duration-300'>
             <Link activeClass="active" to="contact" spy={true} smooth={true} duration={600}>
               Contact
             </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
        </div>
 
        {/* Mobile menu */}
-       <ul className={nav ? 'md:hidden w-full absolute top-0 left-0 bg-[#0a192f] h-screen flex flex-col justify-center items-center nav' : 'hidden'}>
+       <ul className={nav ? 'md:hidden w-full absolute top-0 left-0 bg-[#100f1f] h-screen flex flex-col justify-center items-center nav' : 'hidden'}>
           <li className='py-6 text-4xl hover:text-[#F02252] duration-300'>
             <Link onClick={handleNav} activeClass="active" to="home" spy={true} smooth={true} duration={600}>
               Home

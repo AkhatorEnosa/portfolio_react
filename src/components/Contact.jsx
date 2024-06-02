@@ -5,21 +5,31 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4 bg-[#0a192f] text-[#7d7f84]"
+      className="w-full h-screen flex justify-center items-center p-4 bg-[#100f1f] text-[#7d7f84]"
     >
-
-      <AnimationOnScroll animateIn="animate__fadeInLeft">
       <form
         action="https://getform.io/f/01a397ad-661f-4786-b7aa-0dc90c7bb80f"
         method="POST"
         className="flex flex-col max-w-[600px] w-full"
       >
-        <div className="pb-8">
+        {/* <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#F02252]  ">
             Contact
           </p>
           <p className="py-4 text-gray-300">
             Send me an email through the form below or shoot me an email at{' '}
+            <span className="text-[#F02252]">
+              <a href="maito:aosakhogba@gmail.com">aosakhogba@gmail.com</a>
+            </span>
+          </p>
+        </div> */}
+
+
+        <div className="w-full pb-10 md:pb-8 pl-4 text-center">
+          <p className='text-4xl font-bold inline border-b-4 border-[#F02252]'>
+          Contact
+          </p>
+          <p className='py-4 text-gray-300'>Send me an email through the form below or shoot me an email at{' '}
             <span className="text-[#F02252]">
               <a href="maito:aosakhogba@gmail.com">aosakhogba@gmail.com</a>
             </span>
@@ -53,7 +63,7 @@ const Contact = () => {
           Submit
         </button>
       </form>
-      </AnimationOnScroll>
+
     </div>
   )
 }

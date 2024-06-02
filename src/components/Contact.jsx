@@ -1,5 +1,4 @@
 import React from 'react'
-import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const Contact = () => {
   return (

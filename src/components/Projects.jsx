@@ -6,6 +6,7 @@ import SpaceTourism from '../assets/space_tourism.png'
 import Splitter from '../assets/splitter.png'
 import Techkare from '../assets/techkare.png'
 import Hilink from '../assets/hilink.png'
+import Kickrs from '../assets/kickrs.png'
 // import LandingPage from '../assets/drib-1.webp'
 // import BankingUl from '../assets/drib-2.webp'
 // import Logo from '../assets/drib-3.webp'
@@ -29,6 +30,7 @@ const Projects = () => {
               <ProjectCards heading="Shaup" imagePath={Shaup} alt="Shaup" details="ECommerce Frontend website built with react." demoLink="https://shaup.netlify.app" codeLink="https://github.com/AkhatorEnosa/online-store"/>
               <ProjectCards heading="Techkare" imagePath={Techkare} alt="techKare" details="Healthcare Facility Dashboard displaying a Patient's Data" demoLink="https://techkare.netlify.app/" codeLink="https://github.com/AkhatorEnosa/techcare"/>
               <ProjectCards heading="Hilink" imagePath={Hilink} alt="hilink" details="A front-end view of a typical travel camping app's Data" demoLink="https://hilinki.netlify.app/" codeLink="https://github.com/AkhatorEnosa/travel-app"/>
+              <ProjectCards heading="Kickrs" imagePath={Kickrs} alt="kickrs" details="Product page for eCommerce website" demoLink="https://kickrs.netlify.app/" codeLink="https://github.com/AkhatorEnosa/product-page"/>
             </div>
       </div>
     </div>

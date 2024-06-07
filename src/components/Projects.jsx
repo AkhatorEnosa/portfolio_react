@@ -15,7 +15,7 @@ import ProjectCards from './ProjectCards'
 
 const Projects = () => {
   return (
-    <div name="projects" className='w-full h-auto bg-[#0a192f] text-[#7d7f84] py-40 overflow-scroll'>
+    <div name="work" className='w-full h-auto bg-[#0a192f] text-[#7d7f84] py-40 overflow-scroll'>
       <div className="w-full flex flex-col justify-center items-center h-full px-10 lg:px-32">
             <div className="w-full pb-10 md:pb-8 pl-4 text-center">
               <p className='text-4xl font-bold inline border-b-4 border-[#F02252]'>

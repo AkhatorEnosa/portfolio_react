@@ -49,3 +49,71 @@ div > .details {
 div:hover > .details {
   display: block;
 }
+
+#head {
+  animation: head 5s ease-in-out infinite;
+}
+
+#body {
+  animation: body 5s ease-in-out infinite;
+}
+
+#smoke {
+  animation: smoke 8s ease-in-out infinite;
+}
+
+@keyframes head {
+  0%{
+    transform: translateX(-10px) rotate(-20deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  50% {
+    transform: translateX(20px) rotate(20deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  100% {
+    transform: translateX(-10px) rotate(-20deg);
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+}
+
+
+
+@keyframes body {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50%{
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes smoke {
+  0% {
+    transform: translateY(5px);
+    transform-origin: center;
+    transform-box: fill-box;
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(-20px) rotateZ(5deg);
+    transform-origin: center;
+    transform-box: fill-box;
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-30px) rotateZ(10deg);
+    transform-origin: center;
+    transform-box: fill-box;
+    opacity: 0;
+  }
+}
